@@ -1,0 +1,86 @@
+[16-Feb-2019 16:25:50] NOTICE: fpm is running, pid 16
+[16-Feb-2019 16:25:50] NOTICE: ready to handle connections
+[04-Mar-2019 23:54:17] NOTICE: fpm is running, pid 39
+[04-Mar-2019 23:54:17] NOTICE: ready to handle connections
+[09-Mar-2019 23:06:44] NOTICE: fpm is running, pid 39
+[09-Mar-2019 23:06:44] NOTICE: ready to handle connections
+[16-Mar-2019 19:18:56] NOTICE: fpm is running, pid 40
+[16-Mar-2019 19:18:56] NOTICE: ready to handle connections
+[14-Apr-2019 15:26:09] NOTICE: fpm is running, pid 56
+[14-Apr-2019 15:26:09] NOTICE: ready to handle connections
+[14-Apr-2019 15:41:26] WARNING: [pool www] child 74 exited on signal 15 (SIGTERM) after 917.020441 seconds from start
+[14-Apr-2019 15:41:26] NOTICE: [pool www] child 9021 started
+[14-Apr-2019 15:41:27] NOTICE: Terminating ...
+[14-Apr-2019 15:41:27] NOTICE: exiting, bye-bye!
+[14-Apr-2019 15:42:54] NOTICE: fpm is running, pid 54
+[14-Apr-2019 15:42:54] NOTICE: ready to handle connections
+[19-Apr-2019 16:05:13] NOTICE: fpm is running, pid 41
+[19-Apr-2019 16:05:13] NOTICE: ready to handle connections
+[22-Apr-2019 00:16:24] NOTICE: fpm is running, pid 39
+[22-Apr-2019 00:16:24] NOTICE: ready to handle connections
+[19-May-2019 22:48:20] NOTICE: fpm is running, pid 41
+[19-May-2019 22:48:20] NOTICE: ready to handle connections
+[16-Jun-2019 22:17:36] NOTICE: Terminating ...
+[16-Jun-2019 22:17:36] NOTICE: exiting, bye-bye!
+[20-Jun-2019 19:45:33] NOTICE: fpm is running, pid 39
+[20-Jun-2019 19:45:33] NOTICE: ready to handle connections
+[21-Jun-2019 20:43:51] NOTICE: Terminating ...
+[21-Jun-2019 20:43:51] NOTICE: exiting, bye-bye!
+[23-Jun-2019 03:12:14] NOTICE: fpm is running, pid 54
+[23-Jun-2019 03:12:14] NOTICE: ready to handle connections
+[23-Jun-2019 20:55:35] NOTICE: Terminating ...
+[23-Jun-2019 20:55:35] NOTICE: exiting, bye-bye!
+[05-Jul-2019 21:44:40] NOTICE: fpm is running, pid 39
+[05-Jul-2019 21:44:40] NOTICE: ready to handle connections
+[06-Jul-2019 16:41:32] NOTICE: Terminating ...
+[06-Jul-2019 16:41:32] NOTICE: exiting, bye-bye!
+[06-Jul-2019 18:40:07] NOTICE: fpm is running, pid 53
+[06-Jul-2019 18:40:07] NOTICE: ready to handle connections
+[07-Jul-2019 16:44:17] NOTICE: Terminating ...
+[07-Jul-2019 16:44:17] NOTICE: exiting, bye-bye!
+[07-Jul-2019 21:29:17] NOTICE: fpm is running, pid 53
+[07-Jul-2019 21:29:17] NOTICE: ready to handle connections
+[13-Jul-2019 01:27:14] NOTICE: fpm is running, pid 60
+[13-Jul-2019 01:27:14] NOTICE: ready to handle connections
+[13-Jul-2019 21:19:53] NOTICE: Terminating ...
+[13-Jul-2019 21:19:53] NOTICE: exiting, bye-bye!
+[14-Jul-2019 01:31:17] NOTICE: fpm is running, pid 54
+[14-Jul-2019 01:31:17] NOTICE: ready to handle connections
+[14-Jul-2019 19:44:42] NOTICE: Terminating ...
+[14-Jul-2019 19:44:42] NOTICE: exiting, bye-bye!
+[15-Jul-2019 03:25:23] NOTICE: fpm is running, pid 51
+[15-Jul-2019 03:25:23] NOTICE: ready to handle connections
+[15-Jul-2019 15:31:28] NOTICE: Terminating ...
+[15-Jul-2019 15:31:28] NOTICE: exiting, bye-bye!
+[17-Jul-2019 03:02:20] NOTICE: fpm is running, pid 54
+[17-Jul-2019 03:02:20] NOTICE: ready to handle connections
+[17-Jul-2019 19:14:32] NOTICE: Terminating ...
+[17-Jul-2019 19:14:32] NOTICE: exiting, bye-bye!
+[18-Jul-2019 14:00:37] NOTICE: fpm is running, pid 51
+[18-Jul-2019 14:00:37] NOTICE: ready to handle connections
+[23-Jul-2019 14:09:10] NOTICE: Terminating ...
+[23-Jul-2019 14:09:10] NOTICE: exiting, bye-bye!
+[23-Jul-2019 14:10:31] NOTICE: fpm is running, pid 51
+[23-Jul-2019 14:10:31] NOTICE: ready to handle connections
+[05-Aug-2019 02:43:43] NOTICE: Terminating ...
+[05-Aug-2019 02:43:43] NOTICE: exiting, bye-bye!
+[08-Aug-2019 13:40:51] NOTICE: fpm is running, pid 55
+[08-Aug-2019 13:40:51] NOTICE: ready to handle connections
+[24-Aug-2019 17:43:25] NOTICE: Terminating ...
+[24-Aug-2019 17:43:25] NOTICE: exiting, bye-bye!
+[01-Sep-2019 17:09:39] NOTICE: fpm is running, pid 56
+[01-Sep-2019 17:09:39] NOTICE: ready to handle connections
+[06-Sep-2019 02:21:17] NOTICE: Terminating ...
+[06-Sep-2019 02:21:17] NOTICE: exiting, bye-bye!
+[12-Oct-2019 15:13:10] NOTICE: fpm is running, pid 55
+[12-Oct-2019 15:13:10] NOTICE: ready to handle connections
+[13-Oct-2019 17:51:56] NOTICE: fpm is running, pid 61
+[13-Oct-2019 17:51:56] NOTICE: ready to handle connections
+[09-Nov-2019 20:10:27] NOTICE: fpm is running, pid 60
+[09-Nov-2019 20:10:27] NOTICE: ready to handle connections
+[27-Nov-2019 20:57:14] NOTICE: fpm is running, pid 55
+[27-Nov-2019 20:57:14] NOTICE: ready to handle connections
+[28-Nov-2019 15:56:35] NOTICE: fpm is running, pid 60
+[28-Nov-2019 15:56:35] NOTICE: ready to handle connections
+[20-Dec-2019 20:52:12] NOTICE: fpm is running, pid 60
+[20-Dec-2019 20:52:12] NOTICE: ready to handle connections

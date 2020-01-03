@@ -1,0 +1,143 @@
+2019/12/20 20:52:11 Using in-memory storage
+2019/12/20 20:52:11 Serving under http://:1080/
+2019/12/20 20:52:11 [SMTP] Binding to address: 0.0.0.0:1025
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Starting session
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Received 16 bytes: 'EHLO localhost\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: ESTABLISH] Processing line: EHLO localhost
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'localhost'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: ESTABLISH] In ESTABLISH state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 21 bytes: '250-Hello localhost\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 16 bytes: '250-PIPELINING\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Received 35 bytes: 'MAIL FROM:<www-data@4c42b1c559ae>\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: MAIL] Processing line: MAIL FROM:<www-data@4c42b1c559ae>
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: MAIL] In state 6, got command 'MAIL', args 'FROM:<www-data@4c42b1c559ae>'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: MAIL] In MAIL state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 37 bytes: '250 Sender www-data@4c42b1c559ae ok\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Received 34 bytes: 'RCPT TO:<mailhog@flywheel.local>\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: RCPT] Processing line: RCPT TO:<mailhog@flywheel.local>
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: RCPT] In state 7, got command 'RCPT', args 'TO:<mailhog@flywheel.local>'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: RCPT] In RCPT state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: RCPT] Got RCPT command
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 41 bytes: '250 Recipient mailhog@flywheel.local ok\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Received 6 bytes: 'DATA\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: RCPT] Processing line: DATA
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: RCPT] In RCPT state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: RCPT] Got DATA command, switching to DATA state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Received 983 bytes: 'To: katherine.procacci@gmail.com\r\nSubject: [New Hyde Park XC/Track & Field] Your site has updated to WordPress 5.3.2\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 20 Dec 2019 20:52:49 +0000\r\nFrom: WordPress <wordpress@nhpxctf.local>\r\nMessage-ID: <c8233633de2eeb118ae75545c44d27b8@nhpxctf.local>\r\nX-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nHowdy! Your site at http://nhpxctf.local has been updated automatically to WordPress 5.3.2.\r\n\r\nNo further action is needed on your part. For more on version 5.3.2, see the About WordPress screen:\r\nhttp://nhpxctf.local/wp-admin/about.php\r\n\r\nIf you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.\r\nhttps://wordpress.org/support/forums/\r\n\r\nYou also have some plugins or themes with updates available. Update them now:\r\nhttp://nhpxctf.local/wp-admin/\r\n\r\nThe WordPress Team\r\n\r\n.\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2019/12/20 20:52:49 Parsing Content from string: 'To: katherine.procacci@gmail.com
+Subject: [New Hyde Park XC/Track & Field] Your site has updated to WordPress 5.3.2
+X-PHP-Originating-Script: 1000:class-phpmailer.php
+Date: Fri, 20 Dec 2019 20:52:49 +0000
+From: WordPress <wordpress@nhpxctf.local>
+Message-ID: <c8233633de2eeb118ae75545c44d27b8@nhpxctf.local>
+X-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Howdy! Your site at http://nhpxctf.local has been updated automatically to WordPress 5.3.2.
+
+No further action is needed on your part. For more on version 5.3.2, see the About WordPress screen:
+http://nhpxctf.local/wp-admin/about.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/forums/
+
+You also have some plugins or themes with updates available. Update them now:
+http://nhpxctf.local/wp-admin/
+
+The WordPress Team
+'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Storing message mTvAvS8cKJ63XSr6VU3nNmo0iAKkc1Bgv5cNEGIxJGg=@mailhog.example
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 80 bytes: '250 Ok: queued as mTvAvS8cKJ63XSr6VU3nNmo0iAKkc1Bgv5cNEGIxJGg=@mailhog.example\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Received 6 bytes: 'QUIT\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: MAIL] Processing line: QUIT
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Sent 9 bytes: '221 Bye\r\n'
+2019/12/20 20:52:49 [SMTP 127.0.0.1:41840] Session ended
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Starting session
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Received 16 bytes: 'EHLO localhost\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: ESTABLISH] Processing line: EHLO localhost
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'localhost'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: ESTABLISH] In ESTABLISH state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 21 bytes: '250-Hello localhost\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 16 bytes: '250-PIPELINING\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Received 35 bytes: 'MAIL FROM:<www-data@4c42b1c559ae>\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: MAIL] Processing line: MAIL FROM:<www-data@4c42b1c559ae>
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: MAIL] In state 6, got command 'MAIL', args 'FROM:<www-data@4c42b1c559ae>'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: MAIL] In MAIL state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 37 bytes: '250 Sender www-data@4c42b1c559ae ok\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Received 34 bytes: 'RCPT TO:<mailhog@flywheel.local>\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: RCPT] Processing line: RCPT TO:<mailhog@flywheel.local>
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: RCPT] In state 7, got command 'RCPT', args 'TO:<mailhog@flywheel.local>'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: RCPT] In RCPT state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: RCPT] Got RCPT command
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 41 bytes: '250 Recipient mailhog@flywheel.local ok\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Received 6 bytes: 'DATA\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: RCPT] Processing line: DATA
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: RCPT] In RCPT state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: RCPT] Got DATA command, switching to DATA state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Received 1024 bytes: 'To: katherine.procacci@gmail.com\r\nSubject: [New Hyde Park XC/Track & Field] Your Site is Experiencing a Technical Issue\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Thu, 2 Jan 2020 02:54:15 +0000\r\nFrom: WordPress <wordpress@nhpxctf.local>\r\nMessage-ID: <f6be9379692562b165e57181873e9596@nhpxctf.local>\r\nX-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nHowdy!\r\n\r\nSince WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.\r\n\r\nIn this case, WordPress caught an error with your theme, Track.\r\n\r\nFirst, visit your website (http://nhpxctf.local/) and check for any visible issues. Next, visit the page where the error was caught (http://nhpxctf.local/wp-admin/admin-ajax.php) and check for any visible issues.\r\n\r\nPlease contact your host for assistance with investigating this issue further.\r\n\r\nIf your site appears broken and you '
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Received 888 bytes: 'can't access your dashboard normally, WordPress now has a special "recovery mode". This lets you safely login to your dashboard and investigate further.\r\n\r\nhttp://nhpxctf.local/wp-login.php?action=enter_recovery_mode&rm_token=gxFaLyUluWgcmyvPoM8KxR&rm_key=NXtKY91LFmzxaWhygHtQlc\r\n\r\nTo keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.\r\n\r\nWhen seeking help with this issue, you may be asked for some of the following information:\r\nWordPress version 5.3.2\r\nCurrent theme: Track (version 1.0)\r\nCurrent plugin:  (version )\r\nPHP version 7.2.9\r\n\r\n\r\n\r\nError Details\r\n=============\r\nAn error of type E_PARSE was caused in line 20 of the file /app/public/wp-content/themes/track-theme/includes/like-route.php. Error message: syntax error, unexpected 'wp_insert_post' (T_STRING)\r\n\r\n.\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2020/01/02 02:54:16 Parsing Content from string: 'To: katherine.procacci@gmail.com
+Subject: [New Hyde Park XC/Track & Field] Your Site is Experiencing a Technical Issue
+X-PHP-Originating-Script: 1000:class-phpmailer.php
+Date: Thu, 2 Jan 2020 02:54:15 +0000
+From: WordPress <wordpress@nhpxctf.local>
+Message-ID: <f6be9379692562b165e57181873e9596@nhpxctf.local>
+X-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Howdy!
+
+Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.
+
+In this case, WordPress caught an error with your theme, Track.
+
+First, visit your website (http://nhpxctf.local/) and check for any visible issues. Next, visit the page where the error was caught (http://nhpxctf.local/wp-admin/admin-ajax.php) and check for any visible issues.
+
+Please contact your host for assistance with investigating this issue further.
+
+If your site appears broken and you can't access your dashboard normally, WordPress now has a special "recovery mode". This lets you safely login to your dashboard and investigate further.
+
+http://nhpxctf.local/wp-login.php?action=enter_recovery_mode&rm_token=gxFaLyUluWgcmyvPoM8KxR&rm_key=NXtKY91LFmzxaWhygHtQlc
+
+To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.
+
+When seeking help with this issue, you may be asked for some of the following information:
+WordPress version 5.3.2
+Current theme: Track (version 1.0)
+Current plugin:  (version )
+PHP version 7.2.9
+
+
+
+Error Details
+=============
+An error of type E_PARSE was caused in line 20 of the file /app/public/wp-content/themes/track-theme/includes/like-route.php. Error message: syntax error, unexpected 'wp_insert_post' (T_STRING)
+'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Storing message Q-fcgTKH1HDaWremEIcZLNKQfF0cvNrWqHHBPYK8Qy4=@mailhog.example
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 80 bytes: '250 Ok: queued as Q-fcgTKH1HDaWremEIcZLNKQfF0cvNrWqHHBPYK8Qy4=@mailhog.example\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Received 6 bytes: 'QUIT\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: MAIL] Processing line: QUIT
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Sent 9 bytes: '221 Bye\r\n'
+2020/01/02 02:54:16 [SMTP 127.0.0.1:46936] Session ended

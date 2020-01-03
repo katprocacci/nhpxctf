@@ -1,0 +1,378 @@
+[17-Feb-2019 23:25:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/track-theme/index.php on line 4
+[17-Feb-2019 23:25:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/track-theme/index.php on line 4
+[17-Feb-2019 23:26:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/track-theme/index.php on line 4
+[17-Feb-2019 23:28:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/track-theme/index.php on line 4
+[17-Feb-2019 23:29:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/track-theme/index.php on line 4
+[17-Feb-2019 23:54:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/track-theme/index.php on line 11
+[24-Feb-2019 02:33:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/functions.php on line 4
+[24-Feb-2019 02:33:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/functions.php on line 4
+[24-Feb-2019 02:33:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/functions.php on line 4
+[24-Feb-2019 02:56:23 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/track-theme/functions.php on line 5
+[24-Feb-2019 17:28:25 UTC] PHP Parse error:  syntax error, unexpected ':' in /app/public/wp-content/themes/track-theme/page.php on line 3
+[24-Feb-2019 17:40:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nhp_features' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[02-Mar-2019 15:58:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/track-theme/page.php on line 21
+[02-Mar-2019 15:59:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/page.php on line 21
+[02-Mar-2019 15:59:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/page.php on line 21
+[02-Mar-2019 15:59:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theID() in /app/public/wp-content/themes/track-theme/page.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/page.php on line 21
+[02-Mar-2019 16:04:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/page.php on line 25
+[02-Mar-2019 16:10:21 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/track-theme/page.php on line 22
+[02-Mar-2019 16:10:24 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/track-theme/page.php on line 22
+[02-Mar-2019 16:10:24 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/track-theme/page.php on line 22
+[02-Mar-2019 18:39:33 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/page.php on line 39
+[02-Mar-2019 18:43:07 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/page.php on line 44
+[02-Mar-2019 18:43:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/page.php on line 44
+[02-Mar-2019 18:45:29 UTC] PHP Parse error:  syntax error, unexpected 'min' (T_STRING) in /app/public/wp-content/themes/track-theme/page.php on line 35
+[02-Mar-2019 18:56:03 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/track-theme/page.php on line 39
+[02-Mar-2019 18:58:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/page.php on line 52
+[02-Mar-2019 18:59:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/page.php on line 52
+[02-Mar-2019 18:59:42 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/page.php on line 52
+[02-Mar-2019 18:59:43 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/page.php on line 52
+[05-Mar-2019 00:33:04 UTC] PHP Parse error:  syntax error, unexpected 'add_theme_support' (T_STRING) in /app/public/wp-content/themes/track-theme/functions.php on line 14
+[05-Mar-2019 00:33:16 UTC] PHP Parse error:  syntax error, unexpected 'add_theme_support' (T_STRING) in /app/public/wp-content/themes/track-theme/functions.php on line 14
+[09-Mar-2019 23:20:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /app/public/wp-content/themes/track-theme/index.php:26
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/index.php on line 26
+[09-Mar-2019 23:24:23 UTC] PHP Parse error:  syntax error, unexpected ':' in /app/public/wp-content/themes/track-theme/index.php on line 22
+[16-Mar-2019 19:53:18 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/front-page.php on line 66
+[16-Mar-2019 19:58:40 UTC] PHP Parse error:  syntax error, unexpected 'site_url' (T_STRING) in /app/public/wp-content/themes/track-theme/header.php on line 21
+[16-Mar-2019 20:01:20 UTC] PHP Parse error:  syntax error, unexpected 'or' (T_LOGICAL_OR) in /app/public/wp-content/themes/track-theme/header.php on line 21
+[19-Apr-2019 16:08:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/functions.php on line 20
+[22-Apr-2019 01:15:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/front-page.php on line 33
+[22-Apr-2019 01:16:17 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/front-page.php on line 33
+[22-Apr-2019 01:16:18 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/front-page.php on line 33
+[22-Apr-2019 01:16:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/track-theme/front-page.php on line 38
+[22-Apr-2019 20:21:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/front-page.php on line 64
+[25-Apr-2019 19:42:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/functions.php on line 22
+[25-Apr-2019 19:43:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/functions.php on line 22
+[25-Apr-2019 19:45:09 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/track-theme/functions.php on line 23
+[25-Apr-2019 19:45:29 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/track-theme/functions.php on line 23
+[25-Apr-2019 19:45:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ')' in /app/public/wp-content/themes/track-theme/functions.php on line 30
+[25-Apr-2019 21:02:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/track-theme/page-past-meets.php:34
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/page-past-meets.php on line 34
+[25-Apr-2019 21:09:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/track-theme/page-past-meets.php:34
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/page-past-meets.php on line 34
+[25-Apr-2019 21:32:04 UTC] PHP Parse error:  syntax error, unexpected ''post_type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/track-theme/page-past-meets.php on line 21
+[25-Apr-2019 21:32:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/track-theme/page-past-meets.php:35
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/page-past-meets.php on line 35
+[25-Apr-2019 21:35:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/page-past-meets.php on line 53
+[26-Apr-2019 20:38:44 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[26-Apr-2019 20:38:44 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[26-Apr-2019 20:38:44 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[26-Apr-2019 20:40:01 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[26-Apr-2019 20:40:01 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[26-Apr-2019 20:40:01 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[26-Apr-2019 20:49:02 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[26-Apr-2019 20:49:02 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[26-Apr-2019 20:49:02 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:22:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/track-theme/single-meet.php on line 31
+[28-Apr-2019 16:22:11 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/track-theme/single-meet.php on line 30
+[28-Apr-2019 16:44:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function posts() in /app/public/wp-content/themes/track-theme/single-program.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/single-program.php on line 49
+[28-Apr-2019 16:47:07 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:47:07 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:47:07 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:48:41 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:48:41 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:48:41 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:49:11 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:49:11 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:49:11 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/archive-program.php on line 21
+[28-Apr-2019 16:51:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_pst_type_archive_link() in /app/public/wp-content/themes/track-theme/front-page.php:9
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/front-page.php on line 9
+[28-Apr-2019 16:52:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_pst_type_archive_link() in /app/public/wp-content/themes/track-theme/front-page.php:9
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/front-page.php on line 9
+[16-Jun-2019 03:17:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/track-theme/single-program.php on line 47
+[16-Jun-2019 03:17:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/track-theme/single-program.php on line 47
+[20-Jun-2019 19:56:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_thumnail() in /app/public/wp-content/themes/track-theme/single-coach.php:19
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/track-theme/single-coach.php on line 19
+[20-Jun-2019 21:17:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting '{' in /app/public/wp-content/themes/track-theme/functions.php on line 12
+[06-Jul-2019 04:30:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[06-Jul-2019 04:30:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[06-Jul-2019 04:30:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[06-Jul-2019 04:30:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[06-Jul-2019 19:09:56 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/track-theme/page.php on line 9
+[13-Jul-2019 02:37:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/functions.php on line 79
+[13-Jul-2019 02:37:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/functions.php on line 79
+[17-Jul-2019 03:29:02 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/track-theme/functions.php on line 83
+[17-Jul-2019 03:29:34 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/track-theme/functions.php on line 81
+[17-Jul-2019 16:15:44 UTC] PHP Parse error:  syntax error, unexpected 'Programs' (T_STRING), expecting ',' or ';' in /app/public/wp-content/themes/track-theme/single-campus.php on line 47
+[17-Jul-2019 16:27:08 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/track-theme/single-program.php on line 90
+[23-Jul-2019 13:55:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/functions.php:14
+Stack trace:
+#0 /app/public/wp-content/themes/track-theme/index.php(4): pageBanner(Array)
+#1 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/track-theme/functions.php on line 14
+[23-Jul-2019 14:00:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[23-Jul-2019 14:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[23-Jul-2019 14:04:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[23-Jul-2019 14:06:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[23-Jul-2019 14:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[23-Jul-2019 14:15:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[23-Jul-2019 14:15:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[29-Jul-2019 02:33:36 UTC] PHP Parse error:  syntax error, unexpected 'url' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/track-theme/functions.php on line 40
+[29-Jul-2019 02:33:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/functions.php on line 40
+[01-Aug-2019 13:28:49 UTC] PHP Warning:  require(/app/public/wp-content/themes/track-theme/inc/search-route.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/track-theme/functions.php on line 3
+[01-Aug-2019 13:28:49 UTC] PHP Fatal error:  require(): Failed opening required '/app/public/wp-content/themes/track-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/track-theme/functions.php on line 3
+[01-Aug-2019 13:47:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 268435464 bytes) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 21
+[01-Aug-2019 14:05:24 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 15
+[01-Aug-2019 14:05:33 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 15
+[09-Aug-2019 19:56:35 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 86
+[09-Aug-2019 19:56:47 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 86
+[09-Aug-2019 19:58:35 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 86
+[09-Aug-2019 20:07:44 UTC] PHP Warning:  Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 82
+[09-Aug-2019 20:07:51 UTC] PHP Warning:  Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 82
+[01-Sep-2019 17:29:31 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 141
+[01-Sep-2019 17:29:32 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 141
+[06-Sep-2019 02:20:52 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 156
+[06-Sep-2019 02:20:52 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 156
+[12-Oct-2019 15:13:27 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 156
+[12-Oct-2019 15:13:28 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 156
+[12-Oct-2019 15:13:34 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 156
+[12-Oct-2019 16:00:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[12-Oct-2019 16:01:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[12-Oct-2019 16:01:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[12-Oct-2019 16:04:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[12-Oct-2019 16:07:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[12-Oct-2019 16:07:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/track-theme/front-page.php(38): get_template_part('/template-parts...', 'meet')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/track-theme/template-parts/content-meet.php on line 4
+[12-Oct-2019 18:34:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 55
+[12-Oct-2019 18:34:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/includes/search-route.php on line 55
+[14-Oct-2019 18:17:18 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/track-theme/search.php on line 5
+[27-Nov-2019 22:56:24 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /app/public/wp-content/themes/track-theme/functions.php on line 109
+[29-Nov-2019 16:53:23 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/track-theme/page-my-notes.php on line 26
+[29-Nov-2019 16:59:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function esc_attr(), 0 passed in /app/public/wp-content/themes/track-theme/page-my-notes.php on line 36 and exactly 1 expected in /app/public/wp-includes/formatting.php:4465
+Stack trace:
+#0 /app/public/wp-content/themes/track-theme/page-my-notes.php(36): esc_attr()
+#1 /app/public/wp-includes/template-loader.php(98): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/formatting.php on line 4465
+[31-Dec-2019 23:26:43 UTC] PHP Parse error:  syntax error, unexpected '$likeCount' (T_VARIABLE) in /app/public/wp-content/themes/track-theme/single-coach.php on line 35
+[02-Jan-2020 02:33:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 19
+[02-Jan-2020 02:35:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 19
+[02-Jan-2020 02:54:15 UTC] PHP Parse error:  syntax error, unexpected 'wp_insert_post' (T_STRING) in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 20
+[02-Jan-2020 02:54:27 UTC] PHP Parse error:  syntax error, unexpected 'wp_insert_post' (T_STRING) in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 20
+[02-Jan-2020 03:37:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 31
+[02-Jan-2020 03:48:58 UTC] PHP Parse error:  syntax error, unexpected 'does' (T_STRING) in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 21
+[02-Jan-2020 03:50:58 UTC] PHP Parse error:  syntax error, unexpected 'does' (T_STRING) in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 21
+[02-Jan-2020 04:51:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 56
+[02-Jan-2020 04:51:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_id() in /app/public/wp-content/themes/track-theme/includes/like-route.php:52
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): deleteLike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(305): WP_REST_Server->serve_request('/team/v1/manage...')
+#3 /app/public/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(729): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1255): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp-...')
+#11 in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 52
+[02-Jan-2020 04:51:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_id() in /app/public/wp-content/themes/track-theme/includes/like-route.php:52
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): deleteLike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(305): WP_REST_Server->serve_request('/team/v1/manage...')
+#3 /app/public/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(729): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1255): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp-...')
+#11 in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 52
+[02-Jan-2020 04:51:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_id() in /app/public/wp-content/themes/track-theme/includes/like-route.php:52
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): deleteLike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(305): WP_REST_Server->serve_request('/team/v1/manage...')
+#3 /app/public/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(729): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1255): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp-...')
+#11 in /app/public/wp-content/themes/track-theme/includes/like-route.php on line 52
